@@ -68,7 +68,7 @@ class ClientsController extends Controller
     public function showDetails(Request $request,$id_client)
     {
 
-        $data = [];
+        $data = []; 
         $data["customer"] = $this->client_data;
         $data["titles"] = $this->titles;
         $data["mode"] = "modify";
