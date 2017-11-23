@@ -15,7 +15,6 @@ class AdminController extends Controller
     public function showIndex()
     {
         $view = "Testing";
-        $newval = "Kaviyarasan/GitHub";
         return $this->render('admin/index.html.twig');
                                 
     }
