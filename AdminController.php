@@ -14,7 +14,7 @@ class AdminController extends Controller
      */
     public function showIndex()
     {
-        $view = "Testingsdfdsfs";
+        $view = "";
         return $this->render('admin/index.html.twig');
                                 
     }
