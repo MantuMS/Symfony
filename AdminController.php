@@ -14,7 +14,7 @@ class AdminController extends Controller
      */
     public function showIndex()
     {
-        $view = "Testing SD Support";
+        $view = "Testing SD Supporsdfdsfdsfdst";
         return $this->render('admin/index.html.twig');
                                 
     }
